@@ -1,8 +1,8 @@
 def is_prime(integer)
   i = 0
-  return false if integer == -i
-  integer.each do |i|
-  return false if integer % i == 0
+  if integer = 2
+  integer.each do ||
+   integer % i == 0
   i += 1
   end
   true
