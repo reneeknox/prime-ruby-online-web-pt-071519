@@ -3,7 +3,7 @@ def is_prime(integer)
     false
   else # (2..integer - 1).to_a
    integer % i == 0
-   [].all?
+   [].all? # Madeline told me this is a good idea to include; I read that it 
   i += 1
   end
   true
