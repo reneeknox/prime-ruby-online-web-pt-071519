@@ -3,7 +3,6 @@ def is_prime(integer)
   return false if integer == -i
   integer.each do |i|
   return false if integer % i == 0
-  i += 1
   end
   true
 end
