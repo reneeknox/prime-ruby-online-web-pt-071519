@@ -16,7 +16,6 @@ def is_prime(integer) # 11
    
    a.none?{|n| integer % n == 0 } #true
    
-   
+  
   end
-  true
 end
