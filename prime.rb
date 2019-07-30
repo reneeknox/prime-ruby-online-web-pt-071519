@@ -1,4 +1,4 @@
-def is_prime(integer) # 11
+def prime?(integer) # 11
   if integer < 2
     false
   else
